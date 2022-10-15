@@ -1,0 +1,73 @@
+header {
+    background-color: #FEFEFE;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+body{
+    margin: 0;
+}
+footer {
+    background-image: url(./images/base.png);
+}
+.logo{
+    display:flex;
+    color:orange;
+    font-weight: 700;
+}
+.pages{
+    display:flex;
+  
+}
+.pages p{
+    margin-right:30px;
+}
+.bucket img, .user img{
+    height: 50%
+
+}
+.bucket{
+    display:flex;
+    align-items: center;
+}
+.user{
+    display:flex;
+    align-items: center;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.slide{
+    display:flex;
+    background: url(./images/slide.png) ;
+    background-size: cover;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.slide-img{
+    position: relative;
+    height: 300px;
+}
+
+.one{
+    position: absolute;
+    left: 20px;
+}
+.two{
+    position: absolute;
+    left: 190px;
+    top: 30px;
+}
+h1{
+    color:orange;
+    width: 200px;
+    border-bottom: solid 1px orange;
+    margin:80px;
+}
+.shuurhai {
+    display:flex;
+    
+}
